@@ -1,24 +1,284 @@
 
 
-*{
-    margin: 0 auto;
+.work-sans-font {
+  font-family: "Work Sans";
+  
+}
+.flex{
+    display:flex;
 }
 
+/*font styles*/
+.font64{
+    font-size:4rem;
+    font-weight: bold;
+    color:#131313;
+    margin-bottom:20px;
+}
+.font45{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: bold;
+    margin-bottom:30px;
+
+}
+.font16{
+    font-size:1rem;
+    color:#727272;
+    font-weight: lighter;
+    margin-bottom:20px;
+
+}
+.font20{
+    font-size:1.25rem;
+    font-weight:600 ;
+    color: #131313;
+    margin-bottom:20px;
+}
+/*button styles*/
+.btn-style{
+    background-color:#FF900E;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+    padding:10px;
+    margin:50px auto;
+    display: block;
+}
+.new-btnn{
+    position:absolute;
+    background-color:#FF900E;
+    color:white;
+    font-size:4rem;
+    font-weight: bold;
+    border:none;
+    padding:42px 42px;
+    display: block;
+    margin-top:-100px;
+    margin-left:-50px;
+    border-radius: 8px;
+    z-index: 1;
+
+}
+.br{
+    display: block;
+}
+
+
+.new-btn{
+    font-size:1.5rem;
+    font-weight: 500;;
+}
+
+/*hover effect*/ 
+.hover-effect:hover {
+    background-color:black;
+    border: #131313;
+    cursor: pointer;
+  }
+/*margin*/
+.margin{
+    max-width: 1440px;
+    margin: 50px auto;
+}
+.margin-top{
+    margin-top: 50px;
+}
 
 /*Header Styles*/
 
 .header-container{
-
+    background-color:rgba(255, 144, 14, 0.1);
+    margin-top:-50px;
 }
-.header-login-part{
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
 
+    
 }
-.header-tittle{
-
+ 
+.link-title{
+    text-decoration:none;
+    margin-right: 50px;
+    color:#424242 ;
+    font-size: 18px;
 }
-.header-description{
+.banner{
+    text-align: center;
 
 }
 .header-big-img{
+    height: 700px;
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+
+
+
+/*body styles-part1(features list)*/
+
+.Feature-clr{
+   color: #FF900E;
+}
+.Quck-list-of-features{
+    align-items: center;
+    gap:75px;
+}
+.teamimage-container{
+    display: grid;
+    gap:24px;
+    grid-template-columns:repeat(2,1fr);
+}
+
+/*body style part 2(our features)*/
+.Our-features{
+    gap:100px;
+}
+.border{
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+}
+.feature-container {
+    position: relative;
+    display: inline-block; 
+  }
+.feature-card{
+    padding:30px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    margin: 20px   auto;
+}
+.feature-img{
+    height: 982px;
+    margin-top:100px;
+    display: block;
+}
+/*body style part 3(facts)*/
+.facts-container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:100px;
+   
+}
+.fact-card{
+    border: 1px solid #FF900E;
+    width:240px;
+    
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size:1.25rem;
+    font-weight: 600;
+}
+    
+/* body style part4 (sponsor)*/
+.sponsor-info{
+    text-align: center;
+}
+.sponsor-companies{
+   display:grid;
+   grid-template-columns:repeat(5,1fr);
+   gap:155px
+}
+.sponsor-companies img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    filter: grayscale(100%);
+}
+
+/*footer styles*/
+
+.footer-container{
+    background-color:#FFF4E7 ;
+    text-align: center;
+    text-decoration: none;
+    padding:15px;
+
+}
+.hide{
+    display: none;
+}
+
+
+/*responsive styles for header*/
+
+@media screen and (max-width:576px) {
+  
+ .navbar{
+        flex-direction: column;
+
+    }
+
+
+
+    .header-container{
+        text-align: center;
+        padding:30px
+        
+    }
+    .link-title{
+        margin-right:10px;
+    }
+   
+    br{
+        display: none;
+    }
+    .header-big-img{
+     width: 350px;
+     height: auto;
+    }
+
+/*quick list*/
+.Quck-list-of-features{
+    flex-direction: column;
+    margin: auto 20px;
+}
+.teamimage-container{
+    grid-template-columns: 1fr;
+    margin: auto 20px;
+}
+
+/*feature part*/
+
+.Our-features{
+    flex-direction: column;
+    margin: auto 20px;
+   
+}
+.feature-img{
+    width: 100%;
+    height: auto;
+    margin-top:-50px;
+}
+.new-btnn{
+    font-size: medium;
+    margin: -100px auto;
+}
+.new-btn{
+    font-size: small;
+}
+
+
+/*facts part*/
+.facts-container{
+    grid-template-columns: 1fr;
+    gap:10px;
+    margin-left: 80px;
+    
+}
+
 
 }

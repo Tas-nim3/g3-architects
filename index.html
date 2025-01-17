@@ -4,29 +4,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
-<body>
+<body class="body-container">
     <header class="header-container">
-        <div header-login-part>
-
+          <nav class="navbar flex margin">  
+            <h3 class="font45 work-sans-font">
+                Welcome to Innova!
+            </h3> 
+            <ul class="nav-links  flex " >
+                <a class="link-title "href="">Home</a>
+                <a class="link-title" href="">About</a>
+               <a class="link-title" href="">Contact Us</a>
+                <a class="link-title" href=""> Login</a>
+            </ul>             
+          </nav>
         </div>
-        <div>
-            <div class="header-tittle">
-
-            </div>
-            <div class="header-description">
-
-            </div>
-            <div class="header-big-img">
-
-            </div>
+        <div class="banner margin">
+             <h2 class="font64 work-sans-font">
+                Brand New 
+                Group of Innova
+             </h2>
+            
+            <p class="font16">
+                Discover a world of creativity, innovation, and endless possibilities. We're here to inspire, empower, and guide you on a journey of <br>exploration and growth. Dive in, explore our content, and let's bring ideas to life together.
+            </p>
+           
+            <button class="btn-style hover-effect work-sans-font">
+                Explore More
+            </button>
+            <img class="header-big-img" src="images/banner.png" alt="banner picture" > 
         </div>
     </header>
-    <main>
-        <section></section>
-        <section></section>
-        <section></section>
+    <main class="margin ">
+        <section class="Quck-list-of-features flex ">
+            <div class="teamimage-container">
+                <img src="images/team1.png" alt="tram 1 image">
+                <img src="images/team2.png" alt="tram 2 image">
+                <img src="images/team3.png" alt="tram 3 image">
+                <img src="images/team4.png" alt="tram 4 image">
+            </div>
+            <div>
+                <h2 class="font45 work-sans-font">
+                    Quick list of Our <span class="Feature-clr">Features</span>
+                </h2>
+                <p class="font16">Discover innovative designs, user-friendly interfaces, and responsive layouts optimized for all devices. Enjoy fast performance, customizable solutions, and SEO-friendly architecture to boost your online presence. We prioritize security, affordability, and sustainability, all backed by 24/7 support to meet your needs seamlessly.
+                </p>
+                <button class="btn-style hover-effect">
+                    Explore More
+                </button>
+            </div>
+        </section>    
+    <section class="Our-features flex">
+        <section class="margin-top">
+              <div>
+                   <h2 class="font45 work-sans-font border">
+                   Features you will love & enjoy
+                </h2>
+                <p class="font16">
+                   Unlock a world of possibilities with features designed to exceed expectations. Immerse yourself in modern, innovative designs paired with responsive layouts that look perfect on any device. Our customizable solutions cater to your unique needs, while lightning-fast performance ensures efficiency. Stay ahead with SEO-friendly structures and robust security to protect your data. With 24/7 support, affordability, and a focus on sustainability, we deliver solutions that are not only reliable but also future-ready. Fall in love with the experience today!
+                </p>
+            </div>
+            <div class="feature-card">
+                <h2 class="font20 work-sans-font">
+                    Desktop & Mobile Version
+                </h2>
+                <p class="font16">
+                     Enjoy a seamless experience across all devices! Our designs are fully optimized for both desktop and mobile, ensuring smooth navigation, fast performance, and consistent functionality, no matter where you access them.
+                </p>
+            </div>
+            <div class="feature-card">
+                <h2 class="font20 work-sans-font">
+                    Drag & Drop Builder
+                </h2>
+                <p class="font16">
+
+                    Effortlessly create and customize your content with our intuitive drag-and-drop builder. No coding required—simply drag, drop, and design your perfect layout in minutes!
+                </p>
+            </div>
+            <div class="feature-card">
+                <h2 class="font20 work-sans-font">
+                    Awesome Modern Design
+                </h2>
+                <p class="font16 ">
+                    Experience cutting-edge aesthetics with our sleek, modern designs. Every detail is crafted to combine style and functionality, creating visually stunning and user-friendly interfaces you'll love!
+                </p>
+            </div>
+            <div class="feature-card">
+                <h2 class="font20 work-sans-font">
+                    Super Easy to Edit
+                </h2>
+                <p class=" font16 ">
+                    Make changes effortlessly with our user-friendly tools. Whether it's content, layout, or design, you can edit everything quickly and intuitively—no technical skills needed!
+                </p>
+            </div>
+       </section>
+       <section>
+           <img class="feature-img" src="images/architect.png" alt="">
+           <button class=" new-btnn work-sans-font">
+            <span class="br">10+Year</span>
+            <span class="new-btn">Experience</span>
+           </button>
+        </section>
+    </section>
+        <section>
+            <h3 class="font45 work-sans-font">
+                Some Facts
+
+            </h3>
+            <p class="font16">
+               
+                Our platform offers lightning-fast performance, mobile optimization,<br>an easy drag-and-drop builder, and 24/7 support—all while promoting <br>sustainability and empowering users worldwide!
+
+            </p>
+            <div class="flex facts-container">
+            <div class="fact-card">
+                <img src="images/icons/ribon.png" alt="" class="fact-icon">
+                <h4 class="fact-number">54</h4>
+                <h5 class="fact-name">Awards Winnings</h5>
+            </div>
+            <div class="fact-card">
+                <img src="images/icons/projects.png" alt="" class="fact-icon">
+                <h4 class="fact-number">1458</h4>
+                <h5 class="fact-name">Project Finished</h5>
+            </div>
+           
+            <div class="fact-card">
+                <img src="images/icons/customers.png" alt="" class="fact-icon">
+                <h4 class="fact-number">590</h4>
+                <h5 class="fact-name">Clients Worked</h5>
+            </div>
+            <div class="fact-card">
+                <img src="images/icons/email.png" alt="" class="fact-icon">
+                <h4 class="fact-number">22578</h4>
+                <h5 class="fact-name">Email Send</h5>
+            </div>
+        </div>
+        </section>
+        <section class="our-sponsers">
+            <div class="sponsor-info">
+                <h3 class="font45 work-sans-font">
+                    Our Sponspors
+                </h3>
+                <p class="font16">
+                    We’re proud to collaborate with industry-leading sponsors who share our vision for innovation and excellence.<br> Their support fuels our journey, enabling us to deliver the best experiences for our users. <br>Together, we’re shaping a brighter future!
+                </p>
+            </div>
+            <div class="sponsor-companies">
+                <img src="images/sponsors/spotify.png" alt="Spotify">
+                <img src="images/sponsors/amazon.png" alt="Amazon">
+                <img src="images/sponsors/google.png" alt="Google">
+                <img src="images/sponsors/telerama.png" alt="Telerama">
+                <img src="images/sponsors/figma.png" alt="Figma">
+            </div>
+            
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer-container margin">
+       
+                <p class="font16">&copy; 2025 All Rights Reserved.<br> Contact us at <a class="font16"href="mailto:example@email.com">example@email.com</a> | <a class="font16" href="/privacy-policy">Privacy Policy</a> | <a class="font16" href="/terms-of-service">Terms of Service</a> | <a class="font16"href="/sitemap">Sitemap</a> | Follow us on <a class="font16" href="https://facebook.com" target="_blank">Facebook</a>, <a class="font16" href="https://twitter.com" target="_blank">Twitter</a>, and <a class="font16" href="https://linkedin.com" target="_blank">LinkedIn</a>.
+              
+              
+        </p>
+    </footer>
 </body>
 </html>
